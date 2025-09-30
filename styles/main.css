@@ -1,0 +1,35 @@
+ #logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40PX;
+ }
+
+ #container {
+     display: grid;
+     grid-template-columns: repeat(4, 200px);
+     grid-template-rows: repeat(4, 200px);
+     gap: 5px;
+     justify-content: center;
+ }
+
+ #container div {
+    background-color: lightgrey;
+    color:red;
+    font-size: 25px;
+     box-sizing: border-box;
+     border: 2px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Exo 2', sans-serif;
+     font-weight: 500;
+     border-radius: 5%;
+ }
+ #container div:hover{
+    color: white;
+    background-image:url('../images/head.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
